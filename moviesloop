@@ -1,0 +1,15 @@
+#Create each List
+movie_titles = ['Clueless', 'Love Actually', "She's All That", 'Never Been Kissed', 'Dirty Dancing']
+parental_ratings = ['PG-13', 'R', 'PG-13', 'PG-13', 'PG-13']
+year_made = [1995, 2003, 1999, 1999, 1987]
+imdb_rating = [6.7, 7.7, 5.7, 6.0, 6.8]
+film_director = ['Amy Heckerline', 'Richard Curtis', 'Robert Iscove', 'Raja Gosnell', 'Emile Ardolino']
+
+#Put a list within a list
+all_together_now = [movie_titles, parental_ratings, year_made, imdb_rating, film_director]
+i = 0
+
+#Print out each list using for loop
+for each_value in all_together_now:
+	print "{0}, {1}, {2}, {3}, {4}".format(movie_titles[i], parental_ratings[i], year_made[i], imdb_rating[i], film_director[i])
+	i+=1
